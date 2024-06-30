@@ -1,0 +1,267 @@
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://cmt#Acceptance> a owl:Class ;
+    ex:name "Acceptance" .
+
+<http://cmt#Administrator> a owl:Class ;
+    ex:name "Administrator" .
+
+<http://cmt#AssociatedChair> a owl:Class ;
+    ex:name "AssociatedChair" .
+
+<http://cmt#Author> a owl:Class ;
+    ex:name "Author" .
+
+<http://cmt#AuthorNotReviewer> a owl:Class ;
+    ex:name "AuthorNotReviewer" .
+
+<http://cmt#Bid> a owl:Class ;
+    ex:name "Bid" .
+
+<http://cmt#Chairman> a owl:Class ;
+    ex:name "Chairman" .
+
+<http://cmt#Co-author> a owl:Class ;
+    ex:name "Co-author" .
+
+<http://cmt#Conference> a owl:Class ;
+    ex:name "Conference" .
+
+<http://cmt#ConferenceChair> a owl:Class ;
+    ex:name "ConferenceChair" .
+
+<http://cmt#ConferenceMember> a owl:Class ;
+    ex:name "ConferenceMember" .
+
+<http://cmt#Decision> a owl:Class ;
+    ex:name "Decision" .
+
+<http://cmt#Document> a owl:Class ;
+    ex:name "Document" .
+
+<http://cmt#ExternalReviewer> a owl:Class ;
+    ex:name "ExternalReviewer" .
+
+<http://cmt#Meta-Review> a owl:Class ;
+    ex:name "Meta-Review" .
+
+<http://cmt#Meta-Reviewer> a owl:Class ;
+    ex:name "Meta-Reviewer" .
+
+<http://cmt#Paper> a owl:Class ;
+    ex:name "Paper" .
+
+<http://cmt#PaperAbstract> a owl:Class ;
+    ex:name "PaperAbstract" .
+
+<http://cmt#PaperFullVersion> a owl:Class ;
+    ex:name "PaperFullVersion" .
+
+<http://cmt#Person> a owl:Class ;
+    ex:name "Person" .
+
+<http://cmt#Preference> a owl:Class ;
+    ex:name "Preference" .
+
+<http://cmt#ProgramCommittee> a owl:Class ;
+    ex:name "ProgramCommittee" .
+
+<http://cmt#ProgramCommitteeChair> a owl:Class ;
+    ex:name "ProgramCommitteeChair" .
+
+<http://cmt#ProgramCommitteeMember> a owl:Class ;
+    ex:name "ProgramCommitteeMember" .
+
+<http://cmt#Rejection> a owl:Class ;
+    ex:name "Rejection" .
+
+<http://cmt#Review> a owl:Class ;
+    ex:name "Review" .
+
+<http://cmt#Reviewer> a owl:Class ;
+    ex:name "Reviewer" .
+
+<http://cmt#SubjectArea> a owl:Class ;
+    ex:name "SubjectArea" .
+
+<http://cmt#User> a owl:Class ;
+    ex:name "User" .
+
+<http://cmt#acceptPaper> a owl:ObjectProperty ;
+    ex:name "acceptPaper" .
+
+<http://cmt#acceptedBy> a owl:ObjectProperty ;
+    ex:name "acceptedBy" .
+
+<http://cmt#acceptsHardcopySubmissions> a owl:DatatypeProperty ;
+    ex:name "acceptsHardcopySubmissions" .
+
+<http://cmt#addProgramCommitteeMember> a owl:ObjectProperty ;
+    ex:name "addProgramCommitteeMember" .
+
+<http://cmt#addedBy> a owl:ObjectProperty ;
+    ex:name "addedBy" .
+
+<http://cmt#adjustBid> a owl:ObjectProperty ;
+    ex:name "adjustBid" .
+
+<http://cmt#adjustedBy> a owl:ObjectProperty ;
+    ex:name "adjustedBy" .
+
+<http://cmt#assignExternalReviewer> a owl:ObjectProperty ;
+    ex:name "assignExternalReviewer" .
+
+<http://cmt#assignReviewer> a owl:ObjectProperty ;
+    ex:name "assignReviewer" .
+
+<http://cmt#assignedByAdministrator> a owl:ObjectProperty ;
+    ex:name "assignedByAdministrator" .
+
+<http://cmt#assignedByReviewer> a owl:ObjectProperty ;
+    ex:name "assignedByReviewer" .
+
+<http://cmt#assignedTo> a owl:ObjectProperty ;
+    ex:name "assignedTo" .
+
+<http://cmt#co-writePaper> a owl:ObjectProperty ;
+    ex:name "co-writePaper" .
+
+<http://cmt#date> a owl:DatatypeProperty ;
+    ex:name "date" .
+
+<http://cmt#detailsEnteredBy> a owl:ObjectProperty ;
+    ex:name "detailsEnteredBy" .
+
+<http://cmt#email> a owl:DatatypeProperty ;
+    ex:name "email" .
+
+<http://cmt#enableVirtualMeeting> a owl:ObjectProperty ;
+    ex:name "enableVirtualMeeting" .
+
+<http://cmt#endReview> a owl:ObjectProperty ;
+    ex:name "endReview" .
+
+<http://cmt#enterConferenceDetails> a owl:ObjectProperty ;
+    ex:name "enterConferenceDetails" .
+
+<http://cmt#enterReviewCriteria> a owl:ObjectProperty ;
+    ex:name "enterReviewCriteria" .
+
+<http://cmt#finalizePaperAssignment> a owl:ObjectProperty ;
+    ex:name "finalizePaperAssignment" .
+
+<http://cmt#hardcopyMailingManifestsPrintedBy> a owl:ObjectProperty ;
+    ex:name "hardcopyMailingManifestsPrintedBy" .
+
+<http://cmt#hasAuthor> a owl:ObjectProperty ;
+    ex:name "hasAuthor" .
+
+<http://cmt#hasBeenAssigned> a owl:ObjectProperty ;
+    ex:name "hasBeenAssigned" .
+
+<http://cmt#hasBid> a owl:ObjectProperty ;
+    ex:name "hasBid" .
+
+<http://cmt#hasCo-author> a owl:ObjectProperty ;
+    ex:name "hasCo-author" .
+
+<http://cmt#hasConferenceMember> a owl:ObjectProperty ;
+    ex:name "hasConferenceMember" .
+
+<http://cmt#hasConflictOfInterest> a owl:ObjectProperty ;
+    ex:name "hasConflictOfInterest" .
+
+<http://cmt#hasDecision> a owl:ObjectProperty ;
+    ex:name "hasDecision" .
+
+<http://cmt#hasProgramCommitteeMember> a owl:ObjectProperty ;
+    ex:name "hasProgramCommitteeMember" .
+
+<http://cmt#hasSubjectArea> a owl:ObjectProperty ;
+    ex:name "hasSubjectArea" .
+
+<http://cmt#logoURL> a owl:DatatypeProperty ;
+    ex:name "logoURL" .
+
+<http://cmt#markConflictOfInterest> a owl:ObjectProperty ;
+    ex:name "markConflictOfInterest" .
+
+<http://cmt#maxPapers> a owl:DatatypeProperty ;
+    ex:name "maxPapers" .
+
+<http://cmt#memberOfConference> a owl:ObjectProperty ;
+    ex:name "memberOfConference" .
+
+<http://cmt#memberOfProgramCommittee> a owl:ObjectProperty ;
+    ex:name "memberOfProgramCommittee" .
+
+<http://cmt#name> a owl:DatatypeProperty ;
+    ex:name "name" .
+
+<http://cmt#paperAssignmentFinalizedBy> a owl:ObjectProperty ;
+    ex:name "paperAssignmentFinalizedBy" .
+
+<http://cmt#paperAssignmentToolsRunBy> a owl:ObjectProperty ;
+    ex:name "paperAssignmentToolsRunBy" .
+
+<http://cmt#paperID> a owl:DatatypeProperty ;
+    ex:name "paperID" .
+
+<http://cmt#printHardcopyMailingManifests> a owl:ObjectProperty ;
+    ex:name "printHardcopyMailingManifests" .
+
+<http://cmt#readByMeta-Reviewer> a owl:ObjectProperty ;
+    ex:name "readByMeta-Reviewer" .
+
+<http://cmt#readByReviewer> a owl:ObjectProperty ;
+    ex:name "readByReviewer" .
+
+<http://cmt#readPaper> a owl:ObjectProperty ;
+    ex:name "readPaper" .
+
+<http://cmt#rejectPaper> a owl:ObjectProperty ;
+    ex:name "rejectPaper" .
+
+<http://cmt#rejectedBy> a owl:ObjectProperty ;
+    ex:name "rejectedBy" .
+
+<http://cmt#reviewCriteriaEnteredBy> a owl:ObjectProperty ;
+    ex:name "reviewCriteriaEnteredBy" .
+
+<http://cmt#reviewerBiddingStartedBy> a owl:ObjectProperty ;
+    ex:name "reviewerBiddingStartedBy" .
+
+<http://cmt#reviewsPerPaper> a owl:DatatypeProperty ;
+    ex:name "reviewsPerPaper" .
+
+<http://cmt#runPaperAssignmentTools> a owl:ObjectProperty ;
+    ex:name "runPaperAssignmentTools" .
+
+<http://cmt#setMaxPapers> a owl:ObjectProperty ;
+    ex:name "setMaxPapers" .
+
+<http://cmt#siteURL> a owl:DatatypeProperty ;
+    ex:name "siteURL" .
+
+<http://cmt#startReviewerBidding> a owl:ObjectProperty ;
+    ex:name "startReviewerBidding" .
+
+<http://cmt#submitPaper> a owl:ObjectProperty ;
+    ex:name "submitPaper" .
+
+<http://cmt#title> a owl:DatatypeProperty ;
+    ex:name "title" .
+
+<http://cmt#virtualMeetingEnabledBy> a owl:ObjectProperty ;
+    ex:name "virtualMeetingEnabledBy" .
+
+<http://cmt#writePaper> a owl:ObjectProperty ;
+    ex:name "writePaper" .
+
+<http://cmt#writeReview> a owl:ObjectProperty ;
+    ex:name "writeReview" .
+
+<http://cmt#writtenBy> a owl:ObjectProperty ;
+    ex:name "writtenBy" .
+

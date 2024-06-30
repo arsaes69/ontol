@@ -1,0 +1,8 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://cmt#assignReviewer> owl:sameAs <http://ekaw#hasReviewer> .
+
+<http://cmt#reviewsPerPaper> owl:sameAs <http://ekaw#reviewerOfPaper> .
+
+<http://cmt#writtenBy> owl:sameAs <http://ekaw#writtenBy> .
+

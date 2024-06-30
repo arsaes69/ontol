@@ -1,0 +1,83 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://confOf#Conference> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference>,
+        <http://ekaw#Conference_Trip> ;
+    "name" "Conference" .
+
+<http://confOf#Event> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Event> ;
+    "name" "Event" .
+
+<http://confOf#Member> a owl:Class ;
+    owl:equivalentClass <http://ekaw#OC_Member>,
+        <http://ekaw#PC_Member>,
+        <http://ekaw#SC_Member> ;
+    "name" "Member" .
+
+<http://confOf#Organization> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Organisation> ;
+    "name" "Organization" .
+
+<http://confOf#Paper> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Paper> ;
+    "name" "Paper" .
+
+<http://confOf#Person> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Person> ;
+    "name" "Person" .
+
+<http://confOf#Social_event> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Social_Event> ;
+    "name" "Social_event" .
+
+<http://confOf#Student> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Student> ;
+    "name" "Student" .
+
+<http://confOf#Tutorial> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Tutorial> ;
+    "name" "Tutorial" .
+
+<http://confOf#University> a owl:Class ;
+    owl:equivalentClass <http://ekaw#University> ;
+    "name" "University" .
+
+<http://confOf#Workshop> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Workshop> ;
+    "name" "Workshop" .
+
+<http://confOf#writtenBy> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://ekaw#writtenBy> ;
+    "name" "writtenBy" .
+
+<http://ekaw#Conference> "name" "Conference" .
+
+<http://ekaw#Conference_Trip> "name" "Conference_Trip" .
+
+<http://ekaw#Event> "name" "Event" .
+
+<http://ekaw#OC_Member> "name" "OC_Member" .
+
+<http://ekaw#Organisation> "name" "Organisation" .
+
+<http://ekaw#PC_Member> "name" "PC_Member" .
+
+<http://ekaw#Paper> "name" "Paper" .
+
+<http://ekaw#Person> "name" "Person" .
+
+<http://ekaw#SC_Member> "name" "SC_Member" .
+
+<http://ekaw#Social_Event> "name" "Social_Event" .
+
+<http://ekaw#Student> "name" "Student" .
+
+<http://ekaw#Tutorial> "name" "Tutorial" .
+
+<http://ekaw#University> "name" "University" .
+
+<http://ekaw#Workshop> "name" "Workshop" .
+
+<http://ekaw#writtenBy> "name" "writtenBy" .
+

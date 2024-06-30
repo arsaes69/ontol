@@ -1,0 +1,321 @@
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://ekaw#Abstract> a owl:Class ;
+    ex:name "Abstract" .
+
+<http://ekaw#Academic_Institution> a owl:Class ;
+    ex:name "Academic_Institution" .
+
+<http://ekaw#Accepted_Paper> a owl:Class ;
+    ex:name "Accepted_Paper" .
+
+<http://ekaw#Agency_Staff_Member> a owl:Class ;
+    ex:name "Agency_Staff_Member" .
+
+<http://ekaw#Assigned_Paper> a owl:Class ;
+    ex:name "Assigned_Paper" .
+
+<http://ekaw#Camera_Ready_Paper> a owl:Class ;
+    ex:name "Camera_Ready_Paper" .
+
+<http://ekaw#Conference> a owl:Class ;
+    ex:name "Conference" .
+
+<http://ekaw#Conference_Banquet> a owl:Class ;
+    ex:name "Conference_Banquet" .
+
+<http://ekaw#Conference_Paper> a owl:Class ;
+    ex:name "Conference_Paper" .
+
+<http://ekaw#Conference_Participant> a owl:Class ;
+    ex:name "Conference_Participant" .
+
+<http://ekaw#Conference_Proceedings> a owl:Class ;
+    ex:name "Conference_Proceedings" .
+
+<http://ekaw#Conference_Session> a owl:Class ;
+    ex:name "Conference_Session" .
+
+<http://ekaw#Conference_Trip> a owl:Class ;
+    ex:name "Conference_Trip" .
+
+<http://ekaw#Contributed_Talk> a owl:Class ;
+    ex:name "Contributed_Talk" .
+
+<http://ekaw#Demo_Chair> a owl:Class ;
+    ex:name "Demo_Chair" .
+
+<http://ekaw#Demo_Paper> a owl:Class ;
+    ex:name "Demo_Paper" .
+
+<http://ekaw#Demo_Session> a owl:Class ;
+    ex:name "Demo_Session" .
+
+<http://ekaw#Document> a owl:Class ;
+    ex:name "Document" .
+
+<http://ekaw#Early-Registered_Participant> a owl:Class ;
+    ex:name "Early-Registered_Participant" .
+
+<http://ekaw#Evaluated_Paper> a owl:Class ;
+    ex:name "Evaluated_Paper" .
+
+<http://ekaw#Event> a owl:Class ;
+    ex:name "Event" .
+
+<http://ekaw#Flyer> a owl:Class ;
+    ex:name "Flyer" .
+
+<http://ekaw#Individual_Presentation> a owl:Class ;
+    ex:name "Individual_Presentation" .
+
+<http://ekaw#Industrial_Paper> a owl:Class ;
+    ex:name "Industrial_Paper" .
+
+<http://ekaw#Industrial_Session> a owl:Class ;
+    ex:name "Industrial_Session" .
+
+<http://ekaw#Invited_Speaker> a owl:Class ;
+    ex:name "Invited_Speaker" .
+
+<http://ekaw#Invited_Talk> a owl:Class ;
+    ex:name "Invited_Talk" .
+
+<http://ekaw#Invited_Talk_Abstract> a owl:Class ;
+    ex:name "Invited_Talk_Abstract" .
+
+<http://ekaw#Late-Registered_Participant> a owl:Class ;
+    ex:name "Late-Registered_Participant" .
+
+<http://ekaw#Location> a owl:Class ;
+    ex:name "Location" .
+
+<http://ekaw#Multi-author_Volume> a owl:Class ;
+    ex:name "Multi-author_Volume" .
+
+<http://ekaw#Negative_Review> a owl:Class ;
+    ex:name "Negative_Review" .
+
+<http://ekaw#Neutral_Review> a owl:Class ;
+    ex:name "Neutral_Review" .
+
+<http://ekaw#OC_Chair> a owl:Class ;
+    ex:name "OC_Chair" .
+
+<http://ekaw#OC_Member> a owl:Class ;
+    ex:name "OC_Member" .
+
+<http://ekaw#Organisation> a owl:Class ;
+    ex:name "Organisation" .
+
+<http://ekaw#Organising_Agency> a owl:Class ;
+    ex:name "Organising_Agency" .
+
+<http://ekaw#PC_Chair> a owl:Class ;
+    ex:name "PC_Chair" .
+
+<http://ekaw#PC_Member> a owl:Class ;
+    ex:name "PC_Member" .
+
+<http://ekaw#Paper> a owl:Class ;
+    ex:name "Paper" .
+
+<http://ekaw#Paper_Author> a owl:Class ;
+    ex:name "Paper_Author" .
+
+<http://ekaw#Person> a owl:Class ;
+    ex:name "Person" .
+
+<http://ekaw#Positive_Review> a owl:Class ;
+    ex:name "Positive_Review" .
+
+<http://ekaw#Possible_Reviewer> a owl:Class ;
+    ex:name "Possible_Reviewer" .
+
+<http://ekaw#Poster_Paper> a owl:Class ;
+    ex:name "Poster_Paper" .
+
+<http://ekaw#Poster_Session> a owl:Class ;
+    ex:name "Poster_Session" .
+
+<http://ekaw#Presenter> a owl:Class ;
+    ex:name "Presenter" .
+
+<http://ekaw#Proceedings> a owl:Class ;
+    ex:name "Proceedings" .
+
+<http://ekaw#Proceedings_Publisher> a owl:Class ;
+    ex:name "Proceedings_Publisher" .
+
+<http://ekaw#Programme_Brochure> a owl:Class ;
+    ex:name "Programme_Brochure" .
+
+<http://ekaw#Regular_Paper> a owl:Class ;
+    ex:name "Regular_Paper" .
+
+<http://ekaw#Regular_Session> a owl:Class ;
+    ex:name "Regular_Session" .
+
+<http://ekaw#Rejected_Paper> a owl:Class ;
+    ex:name "Rejected_Paper" .
+
+<http://ekaw#Research_Institute> a owl:Class ;
+    ex:name "Research_Institute" .
+
+<http://ekaw#Research_Topic> a owl:Class ;
+    ex:name "Research_Topic" .
+
+<http://ekaw#Review> a owl:Class ;
+    ex:name "Review" .
+
+<http://ekaw#SC_Member> a owl:Class ;
+    ex:name "SC_Member" .
+
+<http://ekaw#Scientific_Event> a owl:Class ;
+    ex:name "Scientific_Event" .
+
+<http://ekaw#Session> a owl:Class ;
+    ex:name "Session" .
+
+<http://ekaw#Session_Chair> a owl:Class ;
+    ex:name "Session_Chair" .
+
+<http://ekaw#Social_Event> a owl:Class ;
+    ex:name "Social_Event" .
+
+<http://ekaw#Student> a owl:Class ;
+    ex:name "Student" .
+
+<http://ekaw#Submitted_Paper> a owl:Class ;
+    ex:name "Submitted_Paper" .
+
+<http://ekaw#Track> a owl:Class ;
+    ex:name "Track" .
+
+<http://ekaw#Tutorial> a owl:Class ;
+    ex:name "Tutorial" .
+
+<http://ekaw#Tutorial_Abstract> a owl:Class ;
+    ex:name "Tutorial_Abstract" .
+
+<http://ekaw#Tutorial_Chair> a owl:Class ;
+    ex:name "Tutorial_Chair" .
+
+<http://ekaw#University> a owl:Class ;
+    ex:name "University" .
+
+<http://ekaw#Web_Site> a owl:Class ;
+    ex:name "Web_Site" .
+
+<http://ekaw#Workshop> a owl:Class ;
+    ex:name "Workshop" .
+
+<http://ekaw#Workshop_Chair> a owl:Class ;
+    ex:name "Workshop_Chair" .
+
+<http://ekaw#Workshop_Paper> a owl:Class ;
+    ex:name "Workshop_Paper" .
+
+<http://ekaw#Workshop_Session> a owl:Class ;
+    ex:name "Workshop_Session" .
+
+<http://ekaw#authorOf> a owl:ObjectProperty ;
+    ex:name "authorOf" .
+
+<http://ekaw#coversTopic> a owl:ObjectProperty ;
+    ex:name "coversTopic" .
+
+<http://ekaw#eventOnList> a owl:ObjectProperty ;
+    ex:name "eventOnList" .
+
+<http://ekaw#hasEvent> a owl:ObjectProperty ;
+    ex:name "hasEvent" .
+
+<http://ekaw#hasPart> a owl:ObjectProperty ;
+    ex:name "hasPart" .
+
+<http://ekaw#hasReview> a owl:ObjectProperty ;
+    ex:name "hasReview" .
+
+<http://ekaw#hasReviewer> a owl:ObjectProperty ;
+    ex:name "hasReviewer" .
+
+<http://ekaw#hasUpdatedVersion> a owl:ObjectProperty ;
+    ex:name "hasUpdatedVersion" .
+
+<http://ekaw#heldIn> a owl:ObjectProperty ;
+    ex:name "heldIn" .
+
+<http://ekaw#inverse_of_partOf_7> a owl:ObjectProperty ;
+    ex:name "inverse_of_partOf_7" .
+
+<http://ekaw#listsEvent> a owl:ObjectProperty ;
+    ex:name "listsEvent" .
+
+<http://ekaw#locationOf> a owl:ObjectProperty ;
+    ex:name "locationOf" .
+
+<http://ekaw#organisedBy> a owl:ObjectProperty ;
+    ex:name "organisedBy" .
+
+<http://ekaw#organises> a owl:ObjectProperty ;
+    ex:name "organises" .
+
+<http://ekaw#paperInVolume> a owl:ObjectProperty ;
+    ex:name "paperInVolume" .
+
+<http://ekaw#paperPresentedAs> a owl:ObjectProperty ;
+    ex:name "paperPresentedAs" .
+
+<http://ekaw#partOf> a owl:ObjectProperty ;
+    ex:name "partOf" .
+
+<http://ekaw#partOfEvent> a owl:ObjectProperty ;
+    ex:name "partOfEvent" .
+
+<http://ekaw#presentationOfPaper> a owl:ObjectProperty ;
+    ex:name "presentationOfPaper" .
+
+<http://ekaw#publisherOf> a owl:ObjectProperty ;
+    ex:name "publisherOf" .
+
+<http://ekaw#referencedIn> a owl:ObjectProperty ;
+    ex:name "referencedIn" .
+
+<http://ekaw#references> a owl:ObjectProperty ;
+    ex:name "references" .
+
+<http://ekaw#reviewOfPaper> a owl:ObjectProperty ;
+    ex:name "reviewOfPaper" .
+
+<http://ekaw#reviewWrittenBy> a owl:ObjectProperty ;
+    ex:name "reviewWrittenBy" .
+
+<http://ekaw#reviewerOfPaper> a owl:ObjectProperty ;
+    ex:name "reviewerOfPaper" .
+
+<http://ekaw#scientificallyOrganisedBy> a owl:ObjectProperty ;
+    ex:name "scientificallyOrganisedBy" .
+
+<http://ekaw#scientificallyOrganises> a owl:ObjectProperty ;
+    ex:name "scientificallyOrganises" .
+
+<http://ekaw#technicallyOrganisedBy> a owl:ObjectProperty ;
+    ex:name "technicallyOrganisedBy" .
+
+<http://ekaw#technicallyOrganises> a owl:ObjectProperty ;
+    ex:name "technicallyOrganises" .
+
+<http://ekaw#topicCoveredBy> a owl:ObjectProperty ;
+    ex:name "topicCoveredBy" .
+
+<http://ekaw#updatedVersionOf> a owl:ObjectProperty ;
+    ex:name "updatedVersionOf" .
+
+<http://ekaw#volumeContainsPaper> a owl:ObjectProperty ;
+    ex:name "volumeContainsPaper" .
+
+<http://ekaw#writtenBy> a owl:ObjectProperty ;
+    ex:name "writtenBy" .
+

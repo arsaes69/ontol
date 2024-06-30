@@ -1,0 +1,55 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://cmt#Conference> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference>,
+        <http://ekaw#Conference_Trip> ;
+    "name" "Conference" .
+
+<http://cmt#ConferenceChair> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Conference> ;
+    "name" "ConferenceChair" .
+
+<http://cmt#Document> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Document> ;
+    "name" "Document" .
+
+<http://cmt#Paper> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Paper> ;
+    "name" "Paper" .
+
+<http://cmt#Person> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Person> ;
+    "name" "Person" .
+
+<http://cmt#Review> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Review> ;
+    "name" "Review" .
+
+<http://cmt#Reviewer> a owl:Class ;
+    owl:equivalentClass <http://ekaw#Review> ;
+    "name" "Reviewer" .
+
+<http://cmt#assignReviewer> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://ekaw#hasReviewer> ;
+    "name" "assignReviewer" .
+
+<http://cmt#writtenBy> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://ekaw#writtenBy> ;
+    "name" "writtenBy" .
+
+<http://ekaw#Conference_Trip> "name" "Conference_Trip" .
+
+<http://ekaw#Document> "name" "Document" .
+
+<http://ekaw#Paper> "name" "Paper" .
+
+<http://ekaw#Person> "name" "Person" .
+
+<http://ekaw#hasReviewer> "name" "hasReviewer" .
+
+<http://ekaw#writtenBy> "name" "writtenBy" .
+
+<http://ekaw#Conference> "name" "Conference" .
+
+<http://ekaw#Review> "name" "Review" .
+

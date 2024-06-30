@@ -1,0 +1,42 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://cmt#Administrator> a owl:Class ;
+    owl:equivalentClass <http://confOf#Administrator> ;
+    "name" "Administrator" .
+
+<http://cmt#Author> a owl:Class ;
+    owl:equivalentClass <http://confOf#Author> ;
+    "name" "Author" .
+
+<http://cmt#Conference> a owl:Class ;
+    owl:equivalentClass <http://confOf#Conference> ;
+    "name" "Conference" .
+
+<http://cmt#ConferenceChair> a owl:Class ;
+    owl:equivalentClass <http://confOf#Conference> ;
+    "name" "ConferenceChair" .
+
+<http://cmt#Paper> a owl:Class ;
+    owl:equivalentClass <http://confOf#Paper> ;
+    "name" "Paper" .
+
+<http://cmt#Person> a owl:Class ;
+    owl:equivalentClass <http://confOf#Person> ;
+    "name" "Person" .
+
+<http://cmt#writtenBy> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://confOf#writtenBy> ;
+    "name" "writtenBy" .
+
+<http://confOf#Administrator> "name" "Administrator" .
+
+<http://confOf#Author> "name" "Author" .
+
+<http://confOf#Paper> "name" "Paper" .
+
+<http://confOf#Person> "name" "Person" .
+
+<http://confOf#writtenBy> "name" "writtenBy" .
+
+<http://confOf#Conference> "name" "Conference" .
+

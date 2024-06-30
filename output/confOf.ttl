@@ -1,0 +1,225 @@
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://confOf#Administrative_event> a owl:Class ;
+    ex:name "Administrative_event" .
+
+<http://confOf#Administrator> a owl:Class ;
+    ex:name "Administrator" .
+
+<http://confOf#Assistant> a owl:Class ;
+    ex:name "Assistant" .
+
+<http://confOf#Author> a owl:Class ;
+    ex:name "Author" .
+
+<http://confOf#Banquet> a owl:Class ;
+    ex:name "Banquet" .
+
+<http://confOf#Camera_Ready_event> a owl:Class ;
+    ex:name "Camera_Ready_event" .
+
+<http://confOf#Chair_PC> a owl:Class ;
+    ex:name "Chair_PC" .
+
+<http://confOf#City> a owl:Class ;
+    ex:name "City" .
+
+<http://confOf#Company> a owl:Class ;
+    ex:name "Company" .
+
+<http://confOf#Conference> a owl:Class ;
+    ex:name "Conference" .
+
+<http://confOf#Contribution> a owl:Class ;
+    ex:name "Contribution" .
+
+<http://confOf#Country> a owl:Class ;
+    ex:name "Country" .
+
+<http://confOf#Event> a owl:Class ;
+    ex:name "Event" .
+
+<http://confOf#Member> a owl:Class ;
+    ex:name "Member" .
+
+<http://confOf#Member_PC> a owl:Class ;
+    ex:name "Member_PC" .
+
+<http://confOf#Organization> a owl:Class ;
+    ex:name "Organization" .
+
+<http://confOf#Paper> a owl:Class ;
+    ex:name "Paper" .
+
+<http://confOf#Participant> a owl:Class ;
+    ex:name "Participant" .
+
+<http://confOf#Person> a owl:Class ;
+    ex:name "Person" .
+
+<http://confOf#Poster> a owl:Class ;
+    ex:name "Poster" .
+
+<http://confOf#Reception> a owl:Class ;
+    ex:name "Reception" .
+
+<http://confOf#Registration_of_participants_event> a owl:Class ;
+    ex:name "Registration_of_participants_event" .
+
+<http://confOf#Regular> a owl:Class ;
+    ex:name "Regular" .
+
+<http://confOf#Reviewing_event> a owl:Class ;
+    ex:name "Reviewing_event" .
+
+<http://confOf#Reviewing_results_event> a owl:Class ;
+    ex:name "Reviewing_results_event" .
+
+<http://confOf#Scholar> a owl:Class ;
+    ex:name "Scholar" .
+
+<http://confOf#Science_Worker> a owl:Class ;
+    ex:name "Science_Worker" .
+
+<http://confOf#Short_paper> a owl:Class ;
+    ex:name "Short_paper" .
+
+<http://confOf#Social_event> a owl:Class ;
+    ex:name "Social_event" .
+
+<http://confOf#Student> a owl:Class ;
+    ex:name "Student" .
+
+<http://confOf#Submission_event> a owl:Class ;
+    ex:name "Submission_event" .
+
+<http://confOf#Topic> a owl:Class ;
+    ex:name "Topic" .
+
+<http://confOf#Trip> a owl:Class ;
+    ex:name "Trip" .
+
+<http://confOf#Tutorial> a owl:Class ;
+    ex:name "Tutorial" .
+
+<http://confOf#University> a owl:Class ;
+    ex:name "University" .
+
+<http://confOf#Volunteer> a owl:Class ;
+    ex:name "Volunteer" .
+
+<http://confOf#Working_event> a owl:Class ;
+    ex:name "Working_event" .
+
+<http://confOf#Workshop> a owl:Class ;
+    ex:name "Workshop" .
+
+<http://confOf#abstract> a owl:DatatypeProperty ;
+    ex:name "abstract" .
+
+<http://confOf#contactEmail> a owl:DatatypeProperty ;
+    ex:name "contactEmail" .
+
+<http://confOf#dealsWith> a owl:ObjectProperty ;
+    ex:name "dealsWith" .
+
+<http://confOf#defaultChoice> a owl:DatatypeProperty ;
+    ex:name "defaultChoice" .
+
+<http://confOf#earlyRegistration> a owl:DatatypeProperty ;
+    ex:name "earlyRegistration" .
+
+<http://confOf#employedBy> a owl:ObjectProperty ;
+    ex:name "employedBy" .
+
+<http://confOf#ends_on> a owl:DatatypeProperty ;
+    ex:name "ends_on" .
+
+<http://confOf#expertOn> a owl:ObjectProperty ;
+    ex:name "expertOn" .
+
+<http://confOf#follows> a owl:ObjectProperty ;
+    ex:name "follows" .
+
+<http://confOf#hasAdministrativeEvent> a owl:ObjectProperty ;
+    ex:name "hasAdministrativeEvent" .
+
+<http://confOf#hasCity> a owl:ObjectProperty ;
+    ex:name "hasCity" .
+
+<http://confOf#hasCountry> a owl:ObjectProperty ;
+    ex:name "hasCountry" .
+
+<http://confOf#hasEmail> a owl:DatatypeProperty ;
+    ex:name "hasEmail" .
+
+<http://confOf#hasFax> a owl:DatatypeProperty ;
+    ex:name "hasFax" .
+
+<http://confOf#hasFirstName> a owl:DatatypeProperty ;
+    ex:name "hasFirstName" .
+
+<http://confOf#hasHomePage> a owl:DatatypeProperty ;
+    ex:name "hasHomePage" .
+
+<http://confOf#hasKeyword> a owl:DatatypeProperty ;
+    ex:name "hasKeyword" .
+
+<http://confOf#hasPhone> a owl:DatatypeProperty ;
+    ex:name "hasPhone" .
+
+<http://confOf#hasPostalCode> a owl:DatatypeProperty ;
+    ex:name "hasPostalCode" .
+
+<http://confOf#hasStreet> a owl:DatatypeProperty ;
+    ex:name "hasStreet" .
+
+<http://confOf#hasSurname> a owl:DatatypeProperty ;
+    ex:name "hasSurname" .
+
+<http://confOf#hasTitle> a owl:DatatypeProperty ;
+    ex:name "hasTitle" .
+
+<http://confOf#hasTopic> a owl:ObjectProperty ;
+    ex:name "hasTopic" .
+
+<http://confOf#hasVAT> a owl:DatatypeProperty ;
+    ex:name "hasVAT" .
+
+<http://confOf#has_short_title> a owl:DatatypeProperty ;
+    ex:name "has_short_title" .
+
+<http://confOf#has_title> a owl:DatatypeProperty ;
+    ex:name "has_title" .
+
+<http://confOf#location> a owl:DatatypeProperty ;
+    ex:name "location" .
+
+<http://confOf#maxChoice> a owl:DatatypeProperty ;
+    ex:name "maxChoice" .
+
+<http://confOf#minChoice> a owl:DatatypeProperty ;
+    ex:name "minChoice" .
+
+<http://confOf#parallel_with> a owl:ObjectProperty ;
+    ex:name "parallel_with" .
+
+<http://confOf#remark> a owl:DatatypeProperty ;
+    ex:name "remark" .
+
+<http://confOf#reviewes> a owl:ObjectProperty ;
+    ex:name "reviewes" .
+
+<http://confOf#starts_on> a owl:DatatypeProperty ;
+    ex:name "starts_on" .
+
+<http://confOf#studyAt> a owl:ObjectProperty ;
+    ex:name "studyAt" .
+
+<http://confOf#writes> a owl:ObjectProperty ;
+    ex:name "writes" .
+
+<http://confOf#writtenBy> a owl:ObjectProperty ;
+    ex:name "writtenBy" .
+
